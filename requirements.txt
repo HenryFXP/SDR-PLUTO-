@@ -1,4 +1,8 @@
 PyQt5
-matplotlib
+pyqtgraph
 numpy
+scipy
 pyadi-iio
+pylibiio
+SoapySDR
+matplotlib
