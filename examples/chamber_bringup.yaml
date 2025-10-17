@@ -1,0 +1,16 @@
+name: chamber_bringup
+metadata:
+  location: Anechoic Lab 3
+waveforms: []
+tx1:
+  enabled: true
+  center_frequency_hz: 2.45e9
+  sample_rate_sps: 30720000
+  rf_bandwidth_hz: 20000000
+  attenuation_db: -6.0
+tx2:
+  enabled: false
+  center_frequency_hz: 2.45e9
+  sample_rate_sps: 30720000
+  rf_bandwidth_hz: 20000000
+  attenuation_db: -10.0

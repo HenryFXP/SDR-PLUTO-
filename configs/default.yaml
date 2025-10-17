@@ -1,0 +1,31 @@
+debug: false
+logging:
+  level: INFO
+  rotate_bytes: 5242880
+  backup_count: 5
+waveform:
+  amplitude: 0.8
+  crest_factor_limit_db: 6.0
+  window: hann
+  oversample_factor: 4
+discovery:
+  usb_poll_ms: 1500
+  ethernet_poll_ms: 3000
+  telemetry_interval_ms: 2000
+  allow_mock: true
+profiles:
+  schema_version: "2.0"
+tx1:
+  enabled: false
+  center_frequency_hz: 2.45e9
+  sample_rate_sps: 30720000
+  rf_bandwidth_hz: 20000000
+  attenuation_db: -10.0
+  sync_group: "A"
+tx2:
+  enabled: false
+  center_frequency_hz: 2.45e9
+  sample_rate_sps: 30720000
+  rf_bandwidth_hz: 20000000
+  attenuation_db: -10.0
+  sync_group: "A"

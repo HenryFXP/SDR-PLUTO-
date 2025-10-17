@@ -1,8 +1,9 @@
-PyQt5
-pyqtgraph
-numpy
-scipy
-pyadi-iio
-pylibiio
-SoapySDR
-matplotlib
+PyQt6>=6.7
+pyqtgraph>=0.13
+numpy>=1.26
+scipy>=1.11
+pyadi-iio>=0.0.14
+libiio>=0.24
+pydantic>=2.7
+pyyaml>=6.0
+rich>=13.7

@@ -1,0 +1,26 @@
+QWidget {
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+}
+QGroupBox {
+    border: 1px solid #3c3c3c;
+    margin-top: 12px;
+}
+QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top left;
+    padding: 4px 8px;
+}
+QPushButton {
+    background-color: #3c6e71;
+    border-radius: 4px;
+    padding: 6px;
+}
+QPushButton:pressed {
+    background-color: #284b63;
+}
+QLineEdit, QDoubleSpinBox, QComboBox {
+    background-color: #2b2b2b;
+    border: 1px solid #444;
+    padding: 4px;
+}
