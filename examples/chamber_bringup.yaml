@@ -1,0 +1,10 @@
+schema_version: "1.0"
+tx1:
+  frequency: 2450000000.0
+  sample_rate: 30720000.0
+  bandwidth: 20000000.0
+  gain_db: -10.0
+waveform:
+  kind: sine
+  frequency: 1000000.0
+  amplitude: 0.8

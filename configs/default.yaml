@@ -1,0 +1,30 @@
+logging:
+  level: INFO
+  rotate_megabytes: 5
+  rotate_backups: 3
+waveform:
+  amplitude: 0.8
+  crest_factor_limit: 6.0
+  window: hann
+tx1:
+  enabled: false
+  center_frequency_hz: 2400000000.0
+  sample_rate_sps: 30720000.0
+  rf_bandwidth_hz: 20000000.0
+  gain_db: -10.0
+  allow_headroom_overdrive: false
+tx2:
+  enabled: false
+  center_frequency_hz: 2400000000.0
+  sample_rate_sps: 30720000.0
+  rf_bandwidth_hz: 20000000.0
+  gain_db: -10.0
+  allow_headroom_overdrive: false
+profile:
+  directory: profiles
+  schema_version: "1.0"
+discovery:
+  usb_enabled: true
+  ethernet_enabled: true
+  discovery_interval_s: 2.0
+  temperature_poll_interval_s: 5.0

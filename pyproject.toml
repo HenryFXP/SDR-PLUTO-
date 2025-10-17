@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "sdr-pluto-plus"
+version = "0.1.0"
+description = "Pluto+ SDR dual-TX control board"
+authors = ["SDR Lab <lab@example.com>"]
+readme = "README.md"
+packages = [{ include = "app" }, { include = "cli" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pyqt6 = "^6.7"
+pyqtgraph = "^0.13"
+numpy = "^1.26"
+scipy = "^1.11"
+pyadi-iio = "^0.0.14"
+libiio = "^0.24"
+pydantic = "^2.7"
+pyyaml = "^6.0"
+rich = "^13.7"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2"
+pytest-qt = "^4.4"
+black = "^24.4"
+ruff = "^0.4"
+mypy = "^1.10"
+
+[tool.poetry.scripts]
+pluto-gui = "app.ui.main:main"
+pluto-cli = "cli.cli:main"
+
+[tool.black]
+line-length = 100
+
+[tool.ruff]
+line-length = 100
+select = ["E", "F", "W", "I", "N", "UP", "B", "A"]
+ignore = ["E501"]
+
+[build-system]
+requires = ["poetry-core>=1.9.0"]
+build-backend = "poetry.core.masonry.api"
