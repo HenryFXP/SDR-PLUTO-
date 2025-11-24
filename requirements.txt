@@ -1,8 +1,7 @@
-PyQt5
+PySide6
 pyqtgraph
 numpy
 scipy
 pyadi-iio
 pylibiio
-SoapySDR
-matplotlib
+sigmf

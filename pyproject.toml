@@ -8,15 +8,16 @@ packages = [{ include = "app" }, { include = "cli" }]
 
 [tool.poetry.dependencies]
 python = "^3.11"
-pyqt6 = "^6.7"
+pyside6 = "^6.7"
 pyqtgraph = "^0.13"
 numpy = "^1.26"
 scipy = "^1.11"
 pyadi-iio = "^0.0.14"
-libiio = "^0.24"
+pylibiio = "^0.24"
 pydantic = "^2.7"
 pyyaml = "^6.0"
 rich = "^13.7"
+sigmf = "^1.1"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.2"
